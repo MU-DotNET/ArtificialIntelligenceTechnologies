@@ -5,6 +5,13 @@ VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level1.Essentials", "Level1.Essentials\Level1.Essentials.csproj", "{976C722D-8E6F-4588-9125-904BF9A9A436}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		DockerizeCommand.txt = DockerizeCommand.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level2.PromptTemplates", "Level2.PromptTemplates\Level2.PromptTemplates.csproj", "{11DA8F82-4946-4F91-B535-FCCAEFB455EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{976C722D-8E6F-4588-9125-904BF9A9A436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976C722D-8E6F-4588-9125-904BF9A9A436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976C722D-8E6F-4588-9125-904BF9A9A436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11DA8F82-4946-4F91-B535-FCCAEFB455EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11DA8F82-4946-4F91-B535-FCCAEFB455EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11DA8F82-4946-4F91-B535-FCCAEFB455EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11DA8F82-4946-4F91-B535-FCCAEFB455EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
